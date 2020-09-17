@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class TaskListComponent  {
 
   tasks = [];
-  task = ""
+  task = "";
+  isAdmin = false;
 
 
   add(): void{
