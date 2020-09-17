@@ -8,14 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   //title = 'first-angular-cli';
   title = 'Tasks';
-  tasks = [];
-  task = ""
-
-
-  add(): void{
-    this.tasks.push(this.task);
-
-  }
+ 
 
 
 
