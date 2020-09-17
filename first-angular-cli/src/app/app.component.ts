@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {User} from './user'
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   //title = 'first-angular-cli';
   title = 'Tasks';
+  upperText: string = "Display uppercase text";
+  lowerText: string = "Display lowerText text";
+  percentValue: number = 0.5;
+  date: Date = new Date();
+  money: number = 598;
+
+
+  user: User = {
+    name: 'Bob', 
+    age: 25
+
+  }
  
 
 
