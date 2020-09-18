@@ -14,6 +14,8 @@ export class AppComponent {
   percentValue: number = 0.5;
   date: Date = new Date();
   money: number = 598;
+  isAdmin = true
+  profile: number = 3
 
 
   user: User = {
